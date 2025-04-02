@@ -1,3 +1,0 @@
-C:\Users\23575\Documents\GitHub\r3nzskin\R3nzSkin_Injector\x64\RiotGamesServers\R3nzSkin_Injector.vcxproj.AssemblyReference.cache
-C:\Users\23575\Documents\GitHub\r3nzskin\R3nzSkin_Injector\x64\RiotGamesServers\R3nzSkinInjector.R3nzUI.resources
-C:\Users\23575\Documents\GitHub\r3nzskin\R3nzSkin_Injector\x64\RiotGamesServers\R3nzSkin_Injector.vcxproj.GenerateResource.cache
