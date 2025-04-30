@@ -16,19 +16,32 @@ bool AIBaseCommon::checkSpecialSkins(const char* model, const std::int32_t skin)
 
 	if (champ_name == FNV("Katarina") && (skin >= 29 && skin <= 36)) {
 		stack->base_skin.gear = static_cast<std::int8_t>(0);
-	} else if (champ_name == FNV("Renekton") && (skin >= 26 && skin <= 32)) {
+	}
+	else if (champ_name == FNV("Renekton") && (skin >= 26 && skin <= 32)) {
 		stack->base_skin.gear = static_cast<std::int8_t>(0);
-	} else if (champ_name == FNV("MissFortune") && skin == 16) {
+	}
+	else if (champ_name == FNV("Evelynn") && (skin >= 23 && skin <= 29)) {
 		stack->base_skin.gear = static_cast<std::int8_t>(0);
-	}else if (champ_name == FNV("Ezreal") && skin == 5) {
+	}
+	else if (champ_name == FNV("MissFortune") && skin == 16) {
 		stack->base_skin.gear = static_cast<std::int8_t>(0);
-	}else if (champ_name == FNV("Kayle") && skin == 6) {
+	}
+	else if (champ_name == FNV("Kayle") && skin == 6) {
 		stack->base_skin.gear = static_cast<std::int8_t>(0);
-	}else if (champ_name == FNV("Ahri") && skin == 86) {
+	}
+	else if (champ_name == FNV("Ahri") && skin == 86) {
 		stack->base_skin.gear = static_cast<std::int8_t>(0);
-	}else if (champ_name == FNV("Jinx") && skin == 60) {
+	}
+	else if (champ_name == FNV("Mordekaiser") && skin == 54) {
 		stack->base_skin.gear = static_cast<std::int8_t>(0);
-	}else if (champ_name == FNV("Lux") || champ_name == FNV("Sona")) {
+	}
+	else if (champ_name == FNV("Jinx") && skin == 60) {
+		stack->base_skin.gear = static_cast<std::int8_t>(0);
+	}
+	else if (champ_name == FNV("Sett") && skin == 66) {
+		stack->base_skin.gear = static_cast<std::int8_t>(0);
+	}
+	else if (champ_name == FNV("Lux") || champ_name == FNV("Sona")) {
 		if ((skin == 7 && champ_name == FNV("Lux")) || (skin == 6 && champ_name == FNV("Sona"))) {
 			stack->stack.clear();
 			stack->push(model, skin);

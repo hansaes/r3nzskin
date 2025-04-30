@@ -97,6 +97,9 @@ public:
 		{ FNV("Ezreal"), 5, 5, { "Level 1", "Level 2", "Level 3" } },
 		{ FNV("Kayle"), 6, 6, { "Steel Wings: Burning Faith", "Steel Wings: Ascension", "Steel Wings: Transcendence" } },
 		{ FNV("Ahri"), 86, 86, { "Golden Regal", "Dazzling Star Fox", "Enchanting Blossom" } },
-		{ FNV("Jinx"), 60, 60, { "Firelight Jinx", "Zaunite Jinx", "Pow-Pow" } }
+		{ FNV("Jinx"), 60, 60, { "Firelight Jinx", "Zaunite Jinx", "Pow-Pow" } },
+		{ FNV("Sett"), 60, 60, { "Level 1", "Level 2", "Level 3" }},
+		{ FNV("Evelynn"), 23, 29, { "Level 1", "Level 2"} },
+		{ FNV("Mordekaiser"), 54, 54, { "Level 1", "Level 2", "Level 3" } }
 	};
 };

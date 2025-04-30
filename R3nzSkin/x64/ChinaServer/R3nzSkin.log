@@ -1,37 +1,37 @@
 ﻿  Config.cpp
   GUI.cpp
-E:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\GUI.cpp(34,23): warning C4018: “<”: 有符号/无符号不匹配
-E:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\GUI.cpp(96,150): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
-E:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\GUI.cpp(111,113): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
-E:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\GUI.cpp(118,216): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
-E:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\GUI.cpp(131,27): warning C4018: “<”: 有符号/无符号不匹配
-E:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\GUI.cpp(166,113): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
-E:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\GUI.cpp(177,215): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
-E:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\GUI.cpp(180,225): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
-E:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\GUI.cpp(182,225): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
-E:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\GUI.cpp(189,93): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
-E:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\GUI.cpp(226,27): warning C4018: “<”: 有符号/无符号不匹配
-E:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\GUI.cpp(233,27): warning C4018: “<”: 有符号/无符号不匹配
-E:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\GUI.cpp(245,62): warning C4244: “=”: 从“T”转换到“int32_t”，可能丢失数据
-E:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\GUI.cpp(245,62): warning C4244:         with
-E:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\GUI.cpp(245,62): warning C4244:         [
-E:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\GUI.cpp(245,62): warning C4244:             T=unsigned __int64
-E:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\GUI.cpp(245,62): warning C4244:         ]
-E:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\GUI.cpp(249,21): warning C4244: “=”: 从“T”转换到“int”，可能丢失数据
-E:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\GUI.cpp(249,21): warning C4244:         with
-E:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\GUI.cpp(249,21): warning C4244:         [
-E:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\GUI.cpp(249,21): warning C4244:             T=unsigned __int64
-E:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\GUI.cpp(249,21): warning C4244:         ]
+G:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\GUI.cpp(34,23): warning C4018: “<”: 有符号/无符号不匹配
+G:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\GUI.cpp(96,150): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+G:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\GUI.cpp(111,113): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+G:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\GUI.cpp(118,216): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+G:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\GUI.cpp(131,27): warning C4018: “<”: 有符号/无符号不匹配
+G:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\GUI.cpp(166,113): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+G:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\GUI.cpp(177,215): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+G:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\GUI.cpp(180,225): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+G:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\GUI.cpp(182,225): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+G:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\GUI.cpp(189,93): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+G:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\GUI.cpp(226,27): warning C4018: “<”: 有符号/无符号不匹配
+G:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\GUI.cpp(233,27): warning C4018: “<”: 有符号/无符号不匹配
+G:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\GUI.cpp(245,62): warning C4244: “=”: 从“T”转换到“int32_t”，可能丢失数据
+G:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\GUI.cpp(245,62): warning C4244:         with
+G:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\GUI.cpp(245,62): warning C4244:         [
+G:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\GUI.cpp(245,62): warning C4244:             T=unsigned __int64
+G:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\GUI.cpp(245,62): warning C4244:         ]
+G:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\GUI.cpp(249,21): warning C4244: “=”: 从“T”转换到“int”，可能丢失数据
+G:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\GUI.cpp(249,21): warning C4244:         with
+G:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\GUI.cpp(249,21): warning C4244:         [
+G:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\GUI.cpp(249,21): warning C4244:             T=unsigned __int64
+G:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\GUI.cpp(249,21): warning C4244:         ]
   Hooks.cpp
-E:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\Hooks.cpp(29,23): warning C4018: “<”: 有符号/无符号不匹配
-E:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\Hooks.cpp(325,24): warning C4018: “<”: 有符号/无符号不匹配
-E:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\Hooks.cpp(347,23): warning C4018: “<”: 有符号/无符号不匹配
-E:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\Hooks.cpp(360,23): warning C4018: “<”: 有符号/无符号不匹配
-E:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\Hooks.cpp(414,89): warning C4244: “参数”: 从“LONG_PTR”转换到“LONG”，可能丢失数据
+G:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\Hooks.cpp(29,23): warning C4018: “<”: 有符号/无符号不匹配
+G:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\Hooks.cpp(325,24): warning C4018: “<”: 有符号/无符号不匹配
+G:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\Hooks.cpp(347,23): warning C4018: “<”: 有符号/无符号不匹配
+G:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\Hooks.cpp(360,23): warning C4018: “<”: 有符号/无符号不匹配
+G:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\Hooks.cpp(414,89): warning C4244: “参数”: 从“LONG_PTR”转换到“LONG”，可能丢失数据
   Memory.cpp
-E:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\Memory.cpp(63,78): warning C4244: “+=”: 从“uintptr_t”转换到“unsigned long”，可能丢失数据
-E:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\Memory.cpp(142,20): warning C4311: “reinterpret_cast”: 从“uint8_t *”到“uint32_t”的指针截断
-E:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\Memory.cpp(142,20): warning C4302: “reinterpret_cast”: 从“uint8_t *”到“uint32_t”截断
+G:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\Memory.cpp(63,78): warning C4244: “+=”: 从“uintptr_t”转换到“unsigned long”，可能丢失数据
+G:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\Memory.cpp(142,20): warning C4311: “reinterpret_cast”: 从“uint8_t *”到“uint32_t”的指针截断
+G:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\R3nzSkin\Memory.cpp(142,20): warning C4302: “reinterpret_cast”: 从“uint8_t *”到“uint32_t”截断
   R3nzSkin.cpp
   AIBaseCommon.cpp
   AIMinionClient.cpp
@@ -46,7 +46,8 @@ E:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换�
   imgui_tables.cpp
   imgui_widgets.cpp
   正在生成代码
-  Previous IPDB was built with incompatible compiler, fall back to full compilation.
-  All 4298 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  4261 of 4298 functions (99.1%) were compiled, the rest were copied from previous compilation.
+    20 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
   已完成代码的生成
-  R3nzSkin.vcxproj -> E:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\Release\ChinaServer\R3nzSkin.dll
+  R3nzSkin.vcxproj -> G:\LOL项目\ALOL盒子(更新)\X64更新文件\天盾验证demo\1217 单板换肤\R3nzSkin-main原版14.8 删除了DX9\R3nzSkin-main\Release\ChinaServer\R3nzSkin.dll
