@@ -56,6 +56,13 @@ jobs:
         with:
           tag_name: ${{ github.event.inputs.tag }}
           name: Release ${{ github.event.inputs.tag }}
-          files: artifacts/**/*.zip
+          files: R3nzSkin/R3nzSkin.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: 创建或更新 latest 标签
+        uses: EndBug/latest-tag@v1
+        with:
+          ref: latest
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
