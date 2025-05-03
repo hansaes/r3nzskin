@@ -1,4 +1,4 @@
-name: Build and Test
+name: Build with MSBuild
 
 on:
   push:
@@ -10,27 +10,15 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
       - name: 检出代码
         uses: actions/checkout@v4
 
-      - name: 安装依赖项
+      - name: 设置 MSBuild 环境
+        uses: microsoft/setup-msbuild@v2
+
+      - name: 构建项目
         run: |
-          sudo apt-get update
-          sudo apt-get install -y cmake build-essential
-
-      - name: 创建构建目录
-        run: mkdir build
-
-      - name: 运行 CMake
-        run: |
-          cd build
-          cmake ..
-
-      - name: 编译项目
-        run: |
-          cd build
-          make
-
+          msbuild R3nzSkin.vcxproj /p:Configuration=Release /p:Platform=x64 /m
