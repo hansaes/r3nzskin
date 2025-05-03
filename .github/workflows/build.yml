@@ -1,0 +1,36 @@
+name: Build and Test
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 安装依赖项
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y cmake build-essential
+
+      - name: 创建构建目录
+        run: mkdir build
+
+      - name: 运行 CMake
+        run: |
+          cd build
+          cmake ..
+
+      - name: 编译项目
+        run: |
+          cd build
+          make
+
