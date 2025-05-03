@@ -12,8 +12,8 @@ jobs:
   build:
     runs-on: windows-2022
     strategy:
-       matrix:
-         configuration: [RiotGamesServers, ChinaServer]
+      matrix:
+        configuration: [RiotGamesServers, ChinaServer]
     steps:
       - name: 检出代码
         uses: actions/checkout@v4
@@ -27,7 +27,22 @@ jobs:
 
       - name: 打包构建产物
         run: |
-          Compress-Archive -Path R3nzSkin\Release\* -DestinationPath R3nzSkin\R3nzSkin.zip
+          Compress-Archive -Path R3nzSkin\Release\* -DestinationPath R3nzSkin\${{ matrix.configuration }}.zip
+
+      - name: 上传构建产物
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-${{ matrix.configuration }}
+          path: R3nzSkin\${{ matrix.configuration }}.zip
+
+  release:
+    runs-on: windows-2022
+    needs: build
+    steps:
+      - name: 下载所有构建产物
+        uses: actions/download-artifact@v4
+        with:
+          path: artifacts
 
       - name: 创建 Git 标签
         run: |
@@ -41,6 +56,6 @@ jobs:
         with:
           tag_name: ${{ github.event.inputs.tag }}
           name: Release ${{ github.event.inputs.tag }}
-          files: R3nzSkin/R3nzSkin.zip
+          files: artifacts/**/*.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
