@@ -13,7 +13,8 @@ jobs:
     runs-on: windows-2022
     strategy:
       matrix:
-        configuration: [RiotGamesServers, ChinaServer]
+        #configuration: [RiotGamesServers, ChinaServer]
+        configuration: [ChinaServer]
     steps:
       - name: 检出代码
         uses: actions/checkout@v4
@@ -27,30 +28,14 @@ jobs:
 
       - name: 打包构建产物
         run: |
-          Compress-Archive -Path R3nzSkin\Release\* -DestinationPath R3nzSkin\${{ matrix.configuration }}.zip
-
-      - name: 上传构建产物
-        uses: actions/upload-artifact@v4
-        with:
-          name: build-${{ matrix.configuration }}
-          path: R3nzSkin\${{ matrix.configuration }}.zip
-
-  release:
-    runs-on: windows-2022
-    needs: build
-    steps:
-      - name: 下载所有构建产物
-        uses: actions/download-artifact@v4
-        with:
-          path: artifacts
-
+          Compress-Archive -Path R3nzSkin\Release\* -DestinationPath R3nzSkin\R3nzSkin.zip
+          
       - name: 创建 Git 标签
         run: |
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor }}@users.noreply.github.com"
           git tag ${{ github.event.inputs.tag }}
           git push origin ${{ github.event.inputs.tag }}
-
       - name: 创建 Release 并上传资产
         uses: softprops/action-gh-release@v1
         with:
