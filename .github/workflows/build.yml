@@ -20,7 +20,7 @@ jobs:
 
       - name: 构建项目
         run: |
-          msbuild R3nzSkin\R3nzSkin.vcxproj /p:Configuration=Release /p:Platform=x64 /m
+          msbuild R3nzSkin\R3nzSkin.vcxproj /p:Platform=x64 /p:Configuration=${{ matrix.configuration }}
 
       - name: 打包构建产物
         run: |
