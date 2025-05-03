@@ -1,24 +1,22 @@
-name: Build with MSBuild
+name: Windows Build
 
-on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+on: [push, pull_request]
 
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: windows-2022
+
+    strategy:
+      matrix:
+        configuration: [RiotGamesServers, ChinaServer]
 
     steps:
       - name: 检出代码
         uses: actions/checkout@v4
 
-      - name: 设置 MSBuild 环境
+      - name: 添加 MSBuild 到 PATH
         uses: microsoft/setup-msbuild@v2
 
       - name: 构建项目
-        run: |
-          msbuild R3nzSkin.vcxproj /p:Configuration=Release /p:Platform=x64 /m
+        shell: cmd
+        run: msbuild R3nzSkin\R3nzSkin.vcxproj /p:Platform=x64 /p:Configuration=${{ matrix.configuration }}
