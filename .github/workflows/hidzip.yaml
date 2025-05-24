@@ -20,7 +20,8 @@ jobs:
       run: |
         mkdir output
         # cp ChinaServer/HID.dll output/
-        # cd output
+        # cd ChinaServer/HID.dll ChinaServer/R3nzSkin.dll
+        mv ChinaServer/HID.dll ChinaServer/R3nzSkin.dll
         zip -r R3nzSkin.zip ChinaServer/
 
     - name: Upload Release Asset
