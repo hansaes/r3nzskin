@@ -21,7 +21,7 @@ jobs:
         mkdir output
         # cp ChinaServer/HID.dll output/
         # cd output
-        zip R3nzSkin.zip ChinaServer
+        zip -r R3nzSkin.zip ChinaServer/
 
     - name: Upload Release Asset
       uses: softprops/action-gh-release@v1
